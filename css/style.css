@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin:  0;
+    padding: 0;
+
+}
+.container{
+    max-width: 950px;
+    margin: 0 auto;
+}
+.wrapper{
+    background-color: black;
+    padding: 16px 0;
+}
+.cell{
+    aspect-ratio: 1/ 1;
+    border: 1px solid white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    
+}
+.cell.bg-dark{
+    background-color: white;
+    color: black;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.btn{
+    padding: 10px;
+    
+}
+.page__header{
+    padding: 32px;
+    background-color: black;
+    
+}
