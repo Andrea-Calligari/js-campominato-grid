@@ -72,6 +72,12 @@ body{
 .page__header{
     padding: 32px;
 }
+.page-footer{
+    padding:32px;
+
+}
+
+
 .logo{
     display: block;
     width: 50px;
